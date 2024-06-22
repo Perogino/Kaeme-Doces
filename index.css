@@ -15,7 +15,7 @@
 
 }
 header {
-        background-color: brown;
+        background-color: #887bb0;
         width: 100%;
         padding: 10px;
         
@@ -25,7 +25,7 @@ header {
         width: 25%; 
 }
 .logo img {
-        width: 100px;
+        width: 80px;
         cursor: pointer;
         border-radius: 8px;
 
@@ -34,7 +34,7 @@ header {
         width: 50%;
 }
 .menu nav a {
-        color: white;
+        color: white ;
         text-decoration: none;
         padding-right: 50px;
         font: size 18px;
@@ -44,7 +44,7 @@ header {
         content: " ";
         width: 0px;
         height: 4px;
-        background-image:linear-gradient(45deg, #FFB6C1, brown);
+        background-image:linear-gradient(45deg,#887bb0 ,pink );
         position: absolute;
         top: 25px;
         left: 0;
@@ -59,7 +59,7 @@ header {
 .sociais button {
         width: 40px ;
         height: 40px;
-        background-image: linear-gradient(45deg, pink, #FF69B4);
+        background-image: linear-gradient(145deg,#887bb0,white);
         border: none;
         margin-right: 10px;
         border-radius: 8px;
@@ -68,12 +68,25 @@ header {
 
 .sociais button i{
         font-size: 20px;
-        color: #ffff;
+        color: black;
 }
 
-body { 
-        background-image: linear-gradient(to right, #FFB6C1,white);
+body,html { 
+        background-image:linear-gradient(to bottom, #887bb0,pink);
+        height: 100%;
+        
        
+}
+
+.sociais button {
+        transition: all 0.5s;
+         cursor: pointer;       
+
+}
+.sociais  button:hover {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+
 }
 
 
